@@ -11,6 +11,7 @@ const Layout = () => {
         <div className="flex gap-[30px]">
             <div className="text-[20px] font-semibold border-b-2 border-b-[transparent] transition duration-300 hover:border-b-[black]"><Link to={'/'}>Home</Link></div>
             <div className="text-[20px] font-semibold border-b-2 border-b-[transparent] transition duration-300 hover:border-b-[black]"><Link to={'/check-breaches'}>Check Breaches</Link></div>
+            <div className="text-[20px] font-semibold border-b-2 border-b-[transparent] transition duration-300 hover:border-b-[black]"><Link to={'/breaches-result'}>Results</Link></div>
         </div>
       </div>
       <Outlet />
